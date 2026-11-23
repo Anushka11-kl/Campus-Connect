@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="University Student Activity Management Portal">
+
+    <title>CampusConnect | Student Activity Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>CampusConnect 🎓</h1>
+        <p>University Student Activity Management Portal</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="home">
+
+        <!-- Welcome Section -->
+        <section>
+            <h2>Welcome to CampusConnect</h2>
+
+            <p>
+                Discover university events, explore activities
+                and participate in exciting campus programs.
+            </p>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+
+            <article>
+                <h3>Technical Fest 2026</h3>
+                <p>Date: 5 December 2026</p>
+                <p>Explore technology, coding and innovation.</p>
+            </article>
+
+            <article>
+                <h3>Annual Cultural Fest</h3>
+                <p>Date: 12 December 2026</p>
+                <p>Enjoy music, dance and cultural performances.</p>
+            </article>
+
+            <article>
+                <h3>Sports Championship</h3>
+                <p>Date: 20 December 2026</p>
+                <p>Participate in exciting sports competitions.</p>
+            </article>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities">
+            <h2>University Activities</h2>
+
+            <ul>
+                <li>Technical Workshops</li>
+                <li>Cultural Programs</li>
+                <li>Sports Competitions</li>
+                <li>Student Clubs</li>
+            </ul>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="register">
+
+            <h2>Student Registration Form</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name"
+                        placeholder="Enter your full name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Enter your email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone"
+                        placeholder="Enter phone number">
+
+                    <label for="branch">Select Branch:</label>
+
+                    <select id="branch" name="branch" required>
+                        <option value="">Choose your branch</option>
+                        <option value="CSE">Computer Science</option>
+                        <option value="ECE">Electronics</option>
+                        <option value="EEE">Electrical</option>
+                        <option value="ME">Mechanical</option>
+                    </select>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Event Preferences</legend>
+
+                    <p>Select your year:</p>
+
+                    <label>
+                        <input type="radio" name="year" value="1st Year">
+                        1st Year
+                    </label>
+
+                    <label>
+                        <input type="radio" name="year" value="2nd Year">
+                        2nd Year
+                    </label>
+
+                    <label>
+                        <input type="radio" name="year" value="3rd Year">
+                        3rd Year
+                    </label>
+
+                    <label>
+                        <input type="radio" name="year" value="4th Year">
+                        4th Year
+                    </label>
+
+                    <p>Select your interests:</p>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Coding">
+                        Coding
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Sports">
+                        Sports
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Dance">
+                        Dance
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Music">
+                        Music
+                    </label>
+
+                    <label for="message">Why do you want to participate?</label>
+
+                    <textarea id="message" name="message"
+                        rows="4"
+                        placeholder="Write your message here"></textarea>
+
+                </fieldset>
+
+                <button type="submit">Register Now</button>
+
+            </form>
+        </section>
+
+        <!-- Aside -->
+        <aside>
+            <h2>Important Notice</h2>
+            <p>Register early to participate in upcoming university events!</p>
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 CampusConnect. All Rights Reserved.</p>
+        <p>University Student Activity Management Portal</p>
+    </footer>
+
+</body>
+</html>
